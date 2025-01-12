@@ -3,6 +3,8 @@ from rdkit import Chem
 #from rdkit.Chem import Draw
 import pandas as pd
 st.image("Substruture_Search.png",use_container_width=True)
+st.markdown("#### Designed by Farzad Mostafavi")
+st.markdown("This app allows you to search for substructures in a dataset of molecules using SMILES.")
 
 #st.title("Substructure Search in SMILES Dataset",)
 
