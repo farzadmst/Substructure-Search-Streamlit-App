@@ -1,7 +1,11 @@
 # Streamlit Substructure Search App
 
 This is a **Streamlit app** for performing **substructure searches** in a **SMILES dataset**. Users can input datasets, define substructure queries using **SMARTS patterns**, and view matching molecules in an interactive interface.
+## Live Demo
 
+You can access the live version of the app here:
+
+[Substructure Search App - Streamlit Cloud](https://substructure-search-app.streamlit.app/)
 ## Features
 - Upload a SMILES dataset (in CSV or other formats).
 - Search for molecular substructures within the dataset using SMARTS patterns.
