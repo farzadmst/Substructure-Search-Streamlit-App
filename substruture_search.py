@@ -1,7 +1,6 @@
 import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import Draw
-from rdkit.Chem import PandasTools
 import pandas as pd
 st.image("SubStruture_Search.png",use_container_width=True)
 
