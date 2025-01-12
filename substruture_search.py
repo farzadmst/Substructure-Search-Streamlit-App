@@ -1,6 +1,6 @@
 import streamlit as st
 from rdkit import Chem
-from rdkit.Chem import Draw
+#from rdkit.Chem import Draw
 import pandas as pd
 st.image("SubStruture_Search.png",use_container_width=True)
 
@@ -38,9 +38,9 @@ if uploaded_file:
                     st.dataframe(results_df)
                     
                     # Render match molecules
-                    mols = [Chem.MolFromSmiles(row[smiles_col]) for row in matches]
-                    img = Draw.MolsToGridImage(mols, molsPerRow=4, subImgSize=(200, 200))
-                    st.image(img)
+                    #mols = [Chem.MolFromSmiles(row[smiles_col]) for row in matches]
+                    #img = Draw.MolsToGridImage(mols, molsPerRow=4, subImgSize=(200, 200))
+                    #st.image(img)
                 else:
                     st.write("No matches found.")
         except Exception as e:
