@@ -19,31 +19,31 @@ This is a **Streamlit app** for performing **substructure searches** in a **SMIL
    ```bash
    git clone https://github.com/yourusername/streamlit-substructure-search.git
 2. Navigate to the project folder:
-   '''bash
+   ```bash
    cd streamlit-substructure-search
 3. Create and activate a virtual environment (optional but recommended):
-   '''bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 4. Install the dependencies:
-   '''bash
+   ```bash
    pip install -r requirements.txt
 5. Run the app:
-   '''bash
+   ```bash
    Streamlit run substructure_search.py
 
 The app will open in your browser, where you can interact with the app and perform substructure searches.
 
-How to Use
-Upload a dataset of SMILES strings (CSV format recommended).
-Enter the SMARTS pattern for the substructure you want to search for.
-The app will display matching molecules based on the query.
-License
+## How to Use
+- Upload a dataset of SMILES strings (CSV format recommended).
+- Enter the SMARTS pattern for the substructure you want to search for.
+- The app will display matching molecules based on the query.
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
-Streamlit for creating a powerful app framework.
-Open-source contributors for the tools and libraries used in this project.
+## Acknowledgements
+- Streamlit for creating a powerful app framework.
+- Open-source contributors for the tools and libraries used in this project.
 
 
 
